@@ -1,4 +1,3 @@
-#Tells intepreter this is a script.
 #! /bin/sh
 
 #This installs Homebrew, which is used to install the programs.
