@@ -40,4 +40,6 @@ brew install google-drive-file-stream
 sleep 10
 
 #This rewrites the default screenshot location to a screenshot folder on the desktop.
+cd Desktop
+mkdir Screenshots
 defaults write com.apple.screencapture location /Desktop/Screenshots 
