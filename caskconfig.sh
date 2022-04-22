@@ -1,6 +1,14 @@
 #! /bin/sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
+sleep 10
+
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/socialgardenmac/.zprofile
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+sleep 10
+
 brew tap homebrew/cask
 
 brew install cask
