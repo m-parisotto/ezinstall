@@ -3,7 +3,7 @@
 
 sleep 10
 
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/socialgardenmac/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$USER/.zprofile
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
