@@ -36,3 +36,7 @@ brew install microsoft-teams
 brew install zoom
 
 brew install google-drive-file-stream
+
+sleep 10
+
+curl -s "https://download.cloud.lastpass.com/mac/installer/chrome.sh" | bash
