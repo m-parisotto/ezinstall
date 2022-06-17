@@ -1,10 +1,7 @@
 #! /bin/sh
 
 #This installs Homebrew, which is used to install the programs.
-/bin/bash -c "$(curl -fsSL https://raw.githubuserco
-
-
-ntent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 #Delays for 10s to ensure background process completion.
 sleep 10
@@ -36,6 +33,8 @@ brew install microsoft-teams
 brew install zoom
 
 brew install google-drive-file-stream
+
+brew install adobe-creative-cloud
 
 sleep 10
 
