@@ -17,6 +17,8 @@ brew tap homebrew/cask
 #Installs the cask module for Homebrew allowing the installation of Casks (Programs).
 brew install cask
 
+/usr/sbin/softwareupdate --install-rosetta --agree-to-license
+
 #Command for Homebrew installs of various programs.
 brew install google-chrome
 
