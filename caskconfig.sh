@@ -35,8 +35,10 @@ brew install microsoft-teams
 
 brew install zoom
 
-brew install google-drive-file-stream
+brew install google-drive
 
-sleep 10
+brew install asana
 
-curl -s "https://download.cloud.lastpass.com/mac/installer/chrome.sh" | bash
+sleep 30
+
+sudo curl -s "https://download.cloud.lastpass.com/mac/installer/chrome.sh" | bash
